@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 from time import sleep
 from PIL import Image
-import randomaaa
 
 from Carte import *
 
@@ -27,9 +26,9 @@ def affiche(liste):
 
 def pasting(c1,c2,b=None):
     if b:
-        img=Image.open("fond-bataille.png")
+        img=Image.open("Jeu_bataille\\fond-bataille.png")
     else:
-        img=Image.open("fond.png")
+        img=Image.open("Jeu_bataille\\fond.png")
     img2 = Image.open(f"./cartes/{c1}.png") 
     img.paste(img2, (0, 0))
     img3 = Image.open(f"./cartes/{c2}.png") 
