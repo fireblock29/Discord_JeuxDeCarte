@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from time import sleep
 from PIL import Image
-import random
+import randomaaa
 
 from Carte import *
 
